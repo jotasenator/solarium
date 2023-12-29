@@ -5,10 +5,10 @@ import { Home, Business, Contact } from '../screens';
 
 const AppRoutes = () => {
     return (
-        <Router>
+        <Router >
             <Navbar />
 
-            <Routes>
+            <Routes >
                 <Route exact path="/" element={ <Home /> } />
                 <Route path="/business" element={ <Business /> } />
                 <Route path="/contact-us" element={ <Contact /> } />
