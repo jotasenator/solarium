@@ -7,6 +7,7 @@ const Home = () => {
             Home
             <Slide />
             <RenderCards />
+
         </div>
     );
 };
