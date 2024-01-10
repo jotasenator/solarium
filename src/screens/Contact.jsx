@@ -1,12 +1,12 @@
 import React from 'react';
-import { Form } from '../components';
+import { MyForm } from '../components';
 import IntroText from '../components/IntroText';
 
 const Contact = () => {
     return (
-        <div id='contact-us'>
+        <div id='contact-us' className='mx-4'>
             <IntroText name='contact' />
-            <Form />
+            <MyForm />
         </div>
     );
 };
