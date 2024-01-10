@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='footer bg-main-color'>
-            <div className="navbar">
+            <div >
                 <p>&copy; 2023 Solarium. All rights reserved.</p>
 
             </div>
