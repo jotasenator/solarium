@@ -1,9 +1,10 @@
 import React from 'react';
+import RenderAccordions from './Acordion/RenderAccordions';
 
 const Accordion = () => {
     return (
-        <div>
-            Accordion
+        <div className="d-flex flex-column justify-content-center mx-3">
+            <RenderAccordions />
         </div>
     );
 };
