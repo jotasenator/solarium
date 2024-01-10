@@ -17,11 +17,13 @@ const RenderCards = () => {
     }, [] );
 
     return (
-        <div className="d-flex flex-wrap justify-content-around">
+
+        <div className=" d-flex flex-wrap justify-content-center gap-3 ">
             { data.map( item => (
                 <MyCard key={ item.id } name={ item.name } price={ item.email } />
             ) ) }
         </div>
+
     );
 };
 
