@@ -15,6 +15,13 @@ body {
   margin-bottom: 700px !important;
 }
 
+@media only screen and (max-width: 600px) {
+  /* smartphones, Android phones, portrait iPhone */
+  body {
+    margin-top: 130px !important; /* Ajusta este valor a tus necesidades */
+  }
+}
+
 ul {
   list-style: none;
 }

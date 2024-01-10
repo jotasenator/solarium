@@ -4,7 +4,7 @@ import IntroText from '../components/IntroText';
 
 const Business = () => {
     return (
-        <div id='business'>
+        <div id='business' className='mx-4'>
             <IntroText name='business' />
             <Accordion />
         </div>

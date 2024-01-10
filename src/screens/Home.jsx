@@ -4,7 +4,7 @@ import IntroText from '../components/IntroText';
 
 const Home = () => {
     return (
-        <div id='home'>
+        <div id='home' className='mx-4'>
             <IntroText name='home' />
             <Slide />
             <RenderCards />
